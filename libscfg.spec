@@ -7,7 +7,7 @@ Name:           libscfg
 Version:        0.1.1
 Release:        1
 Summary:        C library for a simple configuration file format
-Gruop:          System/Library
+Group:          System/Library
 License:        MIT
 URL:            https://sr.ht/~emersion/libscfg/
 Source0:        https://git.sr.ht/~emersion/libscfg/refs/download/v%{version}/%{name}-%{version}.tar.gz
