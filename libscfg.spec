@@ -11,7 +11,7 @@ Group:          System/Library
 License:        MIT
 URL:            https://sr.ht/~emersion/libscfg/
 Source0:        https://git.sr.ht/~emersion/libscfg/refs/download/v%{version}/%{name}-%{version}.tar.gz
-Patch:          https://sr.ht/~emersion/libscfg/commit/3bdba8c2.patch#/libscfg-0.1.1-build-set-library-version-and-soversion.patch
+Patch0:          https://sr.ht/~emersion/libscfg/commit/3bdba8c2.patch#/libscfg-0.1.1-build-set-library-version-and-soversion.patch
 
 BuildRequires:  gnupg2
 BuildRequires:  meson
