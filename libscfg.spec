@@ -34,7 +34,7 @@ The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
 
 %prep
-%autosetup -n %{name}-v%{version} -p1
+%autosetup -n %{name} -p1
 
 %build
 %meson
