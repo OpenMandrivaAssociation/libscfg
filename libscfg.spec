@@ -10,7 +10,7 @@ Summary:        C library for a simple configuration file format
 Group:          System/Library
 License:        MIT
 URL:            https://codeberg.org/emersion/libscfg/
-Source0:        https://codeberg.org/emersion/libscfg/archive/v%{name}/%{name}-%{version}.tar.gz
+Source0:        https://codeberg.org/emersion/libscfg/archive/v%{name}/%{name}-v%{version}.tar.gz
 #Source0:        https://git.sr.ht/~emersion/libscfg/refs/download/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  gnupg2
@@ -34,7 +34,7 @@ The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
 
 %prep
-%autosetup -p1
+%autosetup -n %{name}-v%{version} -p1
 
 %build
 %meson
