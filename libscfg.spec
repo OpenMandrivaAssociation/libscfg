@@ -4,14 +4,14 @@
 %define devname %mklibname -d scfg
 
 Name:           libscfg
-Version:        0.1.1
+Version:        0.2.0
 Release:        1
 Summary:        C library for a simple configuration file format
 Group:          System/Library
 License:        MIT
-URL:            https://sr.ht/~emersion/libscfg/
-Source0:        https://git.sr.ht/~emersion/libscfg/refs/download/v%{version}/%{name}-%{version}.tar.gz
-Patch0:          https://sr.ht/~emersion/libscfg/commit/3bdba8c2.patch#/libscfg-0.1.1-build-set-library-version-and-soversion.patch
+URL:            https://codeberg.org/emersion/libscfg/
+Source0:        https://codeberg.org/emersion/libscfg/archive/v%{name}/%{name}-%{version}.tar.gz
+#Source0:        https://git.sr.ht/~emersion/libscfg/refs/download/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  gnupg2
 BuildRequires:  meson
