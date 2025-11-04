@@ -1,4 +1,4 @@
-%define api 1
+%define api 2
 
 %define libname %mklibname scfg
 %define devname %mklibname -d scfg
